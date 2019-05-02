@@ -149,7 +149,7 @@ a {
   color: #dedede;
   display: block;
   height: 54px;
-  padding: 0 25px;
+  padding: 0 15px;
   text-decoration: none;
   line-height: 54px;
 }
@@ -159,13 +159,29 @@ ul {
   padding: 0;
   list-style: none;
   height: 54px;
-  list-style-image: url(../images/ul.png);
 }
 
 ul li {
   float: left;
 }
 
+.article {
+  grid-area: a;
+}
+
+.articles {
+  grid-area: b;
+}
+
+.news {
+  grid-area: c;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas: "a a c"
+                       "b b c"
+}
 
 .footer, .link {
   margin: 0;
