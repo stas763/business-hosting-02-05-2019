@@ -25,16 +25,15 @@ header {
 
 footer {
   background-color: #adadad;
+  height: 64px;
 }
 
 body {
   margin: 0;
-  /* max-width: 1350px; */
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
   width: 650px;
-
 }
 
 h1, h2, h3, h4 {
@@ -45,6 +44,7 @@ h1 {
   font-family: 'NewsGoth BdXCn BT';
   font-size: 27.47px;
 }
+
 h1, h4 {
   margin-bottom: auto;
 }
@@ -65,7 +65,6 @@ h2 {
   padding: 22px 0px 5px 29px;
   color: black;
 }
-
 
 span.price {
   padding: 0;
@@ -90,7 +89,7 @@ h3 {
   font-size: 16px;
   color: #ff6f00;
   text-shadow: 1px 1px 1px #c8c9c9;
-
+  text-align: left;
 }
 
 p {
@@ -112,7 +111,6 @@ hr {
 
 .business {
   color: #5b5b5b;
-
 }
 
 .container {
@@ -120,7 +118,6 @@ hr {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 .plan {
@@ -147,7 +144,6 @@ nav:before {
 
 a {
   color: #dedede;
-  display: block;
   height: 54px;
   padding: 0 15px;
   text-decoration: none;
@@ -165,16 +161,49 @@ ul li {
   float: left;
 }
 
+.big_servak {
+  z-index: 22;
+
+}
+
 .article {
   grid-area: a;
+  line-height: 10px;
+}
+
+.article > p {
+  display:inline;
+}
+
+.leftcol {
+  padding: 16px 8px 25px 25px;
+  width: 103px;
+  height: 103px;
 }
 
 .articles {
   grid-area: b;
+  line-height: 10px;
+}
+
+.art {
+ font-size: 10px;
+ line-height: 10px;
+ padding: 0;
+ margin-left: 5px;
 }
 
 .news {
   grid-area: c;
+}
+
+.news > h3 {
+  margin: 16px;
+}
+
+.news > p {
+  line-height: 10px;
+  margin: 16px;
 }
 
 .grid {
@@ -185,4 +214,37 @@ ul li {
 
 .footer, .link {
   margin: 0;
+}
+
+#footetr_menu {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#footetr_menu > li {
+  text-align: center;
+}
+
+.l {
+  line-height: 2px;
+  font-size: 10px;
+  color: black;
+  margin: 0;
+}
+
+a.l {
+  margin: 0;
+
+}
+
+.f_m {
+  color: #3a3a3a;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.copyright > p {
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
