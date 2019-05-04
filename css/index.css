@@ -14,7 +14,7 @@ html {
   background-repeat: no-repeat;
 }
 
-header, .article, .news {
+header, .articles, .article, .news {
   background-color: #ffffff;
 }
 
@@ -230,11 +230,18 @@ ul li {
   font-size: 10px;
   color: black;
   margin: 0;
+  text-decoration: underline;
+  list-style: circle;
 }
+
+/* ul.withsquare {
+  list-style: square;
+} */
+
+
 
 a.l {
   margin: 0;
-
 }
 
 .f_m {
