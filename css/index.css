@@ -117,15 +117,19 @@ hr {
   background-image: url(../images/back_container.png);
   background-position: center;
   background-size: cover;
+  height: 170px;
   background-repeat: no-repeat;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .plan {
   color: white;
   display: inline-block;
-  border-width: 0 1px 0 0;/*толщина*/
+  border-width: 0 0 0 0;
   border-style: solid;
-  padding-right: 10px;/*отступ справа*/
+  padding-right: 10px;
 }
 
 nav {
@@ -231,18 +235,31 @@ ul li {
   color: black;
   margin: 0;
   text-decoration: underline;
-  list-style: circle;
+
 }
-
-/* ul.withsquare {
-  list-style: square;
-} */
-
-
 
 a.l {
-  margin: 0;
+
 }
+
+ul.withsquare {
+  list-style: square;
+  padding: 0;
+}
+.big {
+  position: relative;
+  top: -250px;
+  left: 420px;
+  z-index: 22;
+  width: 240px;
+  height: 295px;
+}
+
+
+
+/* a.l {
+  margin: 0;
+} */
 
 .f_m {
   color: #3a3a3a;
