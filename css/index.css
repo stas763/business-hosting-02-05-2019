@@ -164,7 +164,6 @@ nav>ul>li>a {
 .article {
   grid-area: a;
   line-height: 10px;
-  border: 1px solid black;
 }
 
 .article>p {
@@ -180,7 +179,6 @@ nav>ul>li>a {
 .articles {
   grid-area: b;
   line-height: 10px;
-  border: 1px solid black;
 }
 
 .art {
@@ -197,7 +195,6 @@ span.artlink {
 
 .news {
   grid-area: c;
-  border: 1px solid black;
 }
 
 .news>h3 {
