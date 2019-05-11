@@ -132,29 +132,28 @@ hr {
   padding-right: 10px;
 }
 
-nav {
-  background-color: #5b5b5b;
+.menu {
+  margin-top: 1px;
   width: 650px;
   height: 54px;
+  background-color: #5b5b5b;
 }
 
-nav>ul {
+.menu>ul {
+  line-height: 54px;
   list-style: none;
-  margin: 1px;
+  margin: 0;
   padding-left: 0;
 }
 
-nav>ul>li {
+.menu>ul>li {
   display: inline;
+  margin: 10px;
 }
 
-nav>ul>li>a {
-  color: #dedede;
-  height: 54px;
-  padding: 0 10px;
+.menu>ul>li>a {
   text-decoration: none;
-  line-height: 54px;
-  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .big_servak {
@@ -226,7 +225,7 @@ span.subsection {
 .grid {
   display: grid;
   grid-template-areas: "a a c"
-                       "b b c"
+    "b b c"
 }
 
 footer, .link {
