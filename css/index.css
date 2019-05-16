@@ -90,6 +90,7 @@ h3 {
   color: #ff6f00;
   text-shadow: 1px 1px 1px #c8c9c9;
   text-align: left;
+  margin-top: -7px;
 }
 
 p {
@@ -165,32 +166,55 @@ hr {
   z-index: 22;
 }
 
-.article {
-  grid-area: a;
-  line-height: 10px;
+.article_1 {
+  width: 450px;
+  height: 130px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.article>p {
-  display: inline;
+.article_2 {
+  height: 150px;
+  grid-area: b;
+}
+
+.pic {
+  width: 103px;
+  height: 103px;
+  margin: 18px 12px 26px 27px;
+  float: left;
+}
+
+.content {
+  width: 300px;
+  float: right;
+  font-size: 9px;
+  margin-top: 24px;
+}
+
+.content>p {
+  margin: 0px 40px 0px 0px;
+  line-height: 12px;
+}
+
+.bolt_text {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.gorizont_line {
+  width: 290px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .leftcol {
   padding: 16px 8px 25px 25px;
   width: 103px;
   height: 103px;
-}
-
-.articles {
-  grid-area: b;
-  line-height: 10px;
-}
-
-.art {
-  font-size: 10px;
-  line-height: 10px;
-  padding: 0;
-  margin-left: 2px;
-  margin-right: 16px;
 }
 
 span.artlink {
@@ -214,7 +238,7 @@ span.section {
   margin-left: 15px;
 }
 
-span.section_, span.section {
+span.section {
   font-size: 10px;
   font-weight: bold;
 }
@@ -231,6 +255,39 @@ span.subsection {
   display: grid;
   grid-template-areas: "a a c"
     "b b c"
+}
+
+.client_support li {
+  padding-left: 5px;
+}
+
+.client_support>ul {
+  list-style-image: url(../images/star.png);
+  padding: 0;
+  padding-left: 10px;
+}
+
+.client_support>ul>li {
+  text-decoration: underline;
+  font-size: 10px;
+}
+
+.client_support>ul>li>a {
+  color: black;
+}
+
+.client_support>h3 {
+  margin-top: 16px;
+  margin-left: 19px;
+}
+
+.big {
+  position: relative;
+  top: -250px;
+  left: 420px;
+  z-index: 22;
+  width: 240px;
+  height: 295px;
 }
 
 footer, .link {
@@ -250,39 +307,6 @@ footer, .link {
   color: black;
   font-weight: 600;
   font-size: 10px;
-}
-
-.client_support li {
-  padding-left: 5px;
-}
-
-.client_support>ul {
-  list-style-image: url(../images/star.png);
-  padding: 0;
-  padding-left: 18px;
-}
-
-.client_support>ul>li {
-  text-decoration: underline;
-  font-size: 10px;
-}
-
-.client_support>ul>li>a {
-  color: black;
-}
-
-.client_support>h3 {
-  margin-top: 16px;
-  margin-left: 13px;
-}
-
-.big {
-  position: relative;
-  top: -250px;
-  left: 420px;
-  z-index: 22;
-  width: 240px;
-  height: 295px;
 }
 
 .f_m {
